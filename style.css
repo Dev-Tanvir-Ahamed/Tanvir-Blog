@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: hsl(84, 3%, 94%);
+}
+.top {
+  background-color: #f0f0ef;
+}
+.main-heading {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #1b262c;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-heading-para {
+  font-size: 2.2rem;
+}
+.main-heading-para span {
+  height: 3rem;
+  width: 5rem;
+  background: #1b262c;
+  color: #fff;
+  padding: 0.7rem;
+}
+
+/*--the main images*/
+.main-header-div {
+  background: linear-gradient(rgb(69 74 72 / 90%), rgb(109 104 104 / 0%)),
+    url(img/pexels-photo-380769.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-header-div p {
+  font-size: 3rem;
+}
+.animateworld {
+  font-size: 6rem;
+}
+.main-header-div button {
+  padding: 0.7rem 2rem;
+  background: #bbe1fa;
+  color: #1b262c;
+  border-color: #bbe1fa;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+.main-header-div button:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.8);
+}
+
+/*-----to get left side div space*/
+.head {
+  font-size: 3rem;
+}
+.left-div {
+  font-family: "David Libre", serif;
+  margin-left: 5rem;
+}
+.blog-title span {
+  font-family: "David Libre", serif;
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.7rem;
+  line-height: 170%;
+  color: #6c757d;
+}
+figure img {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+figure img:hover {
+  transform: translateY(-0.5rem);
+}
+.left-div-btns button {
+  color: #000;
+  border-width: 0.2rem;
+  font-size: 1.6rem;
+  transition: 0.3s;
+  padding: 0.8rem 2rem;
+  background-color: #bbe1fa;
+  border-color: #bbe1fa;
+  font-family: "Josefin Sans", sans-serif;
+}
+.left-div-btns button:hover {
+  transform: translateY(-0.5rem);
+}
+.replies {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  transition: 0.3s;
+  display: none;
+}
+.thapa_show {
+  margin: 20px 0;
+  transition: 0.3s;
+  display: block;
+}
+
+/*right side div style*/
+.about-me {
+  width: auto;
+  height: 40rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(208, 206, 207, 0.8) 50%
+    ),
+    url(img/Tanvir.jpg);
+  background-size: 100% 100%;
+}
+.about-me p:first-child {
+  padding-top: rem;
+  font-size: 2.2rem;
+}
+.about-me p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #000;
+}
+.right-div-title h2 {
+  padding-left: 2rem;
+  font-size: 2.5rem;
+}
+.right-div-title {
+  background: #d0cecf;
+  box-shadow: 0 1rem 0rem -1rem rgba(0, 0, 0, 0.4);
+  color: #000;
+}
+.right-sub-div {
+  background: #fff;
+  padding: 2.5rem 1rem;
+}
+.img-3 {
+  height: 3rem;
+  padding-top: 0;
+}
+/*Tags*/
+.tag-main a {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  line-height: 150%;
+  background: #6c757d;
+  transition: 0.3s;
+  color: #fff;
+}
+.tag-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4rem, 8rem));
+  grid-gap: 0.5rem;
+}
+.tag-main a:hover {
+  color: #000;
+  background: #bbe1fa;
+}
+.advitase-img {
+  min-width: 10rem;
+  height: 20rem;
+  display: grid;
+  place-items: center;
+}
+.fab {
+  color: #000;
+  transition: 0.3s;
+}
+.fab:hover {
+  color: #d0cecf;
+  transform: rotate(360deg);
+}
+form label {
+  font-size: 1.7rem;
+  line-height: 170%;
+  color: #6c757d;
+}
+
+.right-sub-div #email1 {
+  padding: 1.5rem 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.subsbtn {
+  color: #000;
+  border-width: 0;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  padding: 0.8rem 2rem;
+  display: block;
+  background-color: #bbe1fa;
+  border-color: #bbe1fa;
+  font-family: "Josefin Sans", sans-serif;
+  outline: none;
+}
+.subsbtn:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.8);
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  width: 99rem;
+}
