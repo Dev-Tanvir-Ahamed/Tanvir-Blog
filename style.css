@@ -219,3 +219,9 @@ footer p {
 footer {
   width: 99rem;
 }
+
+@media(max-width:576px){
+	.left-div {
+    margin-left: 1rem;
+}
+}
